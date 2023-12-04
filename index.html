@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6f5f9fe9ba.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="a6.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">HALAMAN</a></li>
+                <li><a href="#about">TENTANG SAYA</a></li>
+                <li><a href="#services">PORTOFOLIO</a></li>
+                <li><a href="#Portofolio">PROJEK</a></li>
+                <li><a href="#kontak">KONTAK</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Hallo</p>
+            <h1>I am <span>Dendy</span><br>Bagus Purnama</h1>
+        </div>
+    </div>
+</div>
+<!-- ------------about-----------  -->
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="a7.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">Tentang Saya</h1>
+                <p>Saya seorang siswa Tehnik Komputer dan Jaringan yang efisien dan percaya diri dengan pengalaman langsung di industri tempat Prakerin saya. Dengan pengalaman ini, saya memupuk pengetahuan yang mumpuni dalam bidang per Wi-Fi an. Saya sangat termotivasi untuk terus belajar dan meningkatkan keahlian saya.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Pendidikan')">Pendidikan</p>
+                    <p class="tab-links" onclick="opentab('Keahlian')">Keahlian</p>
+                    <p class="tab-links" onclick="opentab('Hobi')">Hobi</p>
+                </div>
+                <div class="tab-contents active-tab" id="Pendidikan">
+                    <ul>
+                        <li><span>2010-2012</span><br>TK PGRI 1 GARUM</li>
+                        <li><span>2012-2018</span><br>SD NEGERI POJOK 2</li>
+                        <li><span>2018-2021</span><br>SMP NEGERI 6 BLITAR</li>
+                        <li><span>2021-2024</span><br>SMK NEGERI 1 NGLEGOK</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Keahlian">
+                    <ul>
+                        <li><span>Jitsi-meet</span><br>Saya dapat mengkonfigurasikan Debian Linux menjadi Video Converense yang sering kita sebut Jitsi-meet.</li>
+                        <li><span>Coding</span><br>Saya berusaha membuat Web site Portofolio dengan menggunakan Visual Studio Code.</li>
+                        <li><span>Moodle</span><br>Saya berhasil melakukan konfigurasi Debian yang kemudian saya buat menjadi sbuah Web Server bernama Moodle.</li>
+                        <li><span>Sepak Bola</span><br>Saya pernah menjuarai lomba Sepak Bola ketika saya dan teman-teman ikut memeriahkan claasmeet saat kami berada di kelas XI.</li>
+                        <li><span>Volli</span><br>Saya juga memiliki pengalaman di lomba Bola Volli saat saya duduk di bangku SMP, dan alhamdulilah sekolah kami mendapat Juara 2.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Hobi">
+                    <ul>
+                        <li><span>Sepak Bola</span><br>Menjadi pesepakbola profesional adalah cita-cita saya dan ayah saya dulu.</li>
+                        <li><span>Volli</span><br>Volli adalah olahraga yang tidak begitu melelahkan, maka dari itu setiap hari saya melakukannya.</li>
+                        <li><span>Futsal</span><br>Meskipun futsal merupakan olahraga yang juga melelahkan, saya ingin mahir dalam bidang ini.</li>
+                        <li><span>Ngaret</span><br>Karena saya berasal dari keluarga Petani. Saya ditekankan dari kecil agar bisa mencari rumput.</li>
+                        <li><span>Memasak</span><br>Menurut saya memasak adalah hobi yang harus di tekuni.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- --------------services--------------- -->
+<section id="services">
+    <div class="container">
+        <h1 class="sub-title">Portofolio</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Website Portofolio</h2>
+                <p>Pembuatan Website menggunakan aplikasi Visual Studio Code</p>
+            </div>
+            <div>
+                <i class="fa-brands fa-debian"></i>
+                <h2>Moodle</h2>
+                <p>Pembuatan Web server menggunakan Debian Linux</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-laptop"></i>
+                <h2>Jitsi-meet</h2>
+                <p>Pembuatan media telfon dengan cara konfigurasi Jitsi-meet</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ----------------portofolio--------------- -->
+<section id="Portofolio">
+    <div class="container">
+        <h1 class="sub-title">Projek</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="a8.png">
+                <div class="layer">
+                    <h3>Website</h3>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="a9.png">
+                <div class="layer">
+                    <h3>Moodle</h3>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="a10.png">
+                <div class="layer">
+                    <h3>Jitsi-meet</h3>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</section>
+<!-- --------------------kontak----------------- -->
+<section id="kontak">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Kontak</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>dendy.bagus25@smk.belajar.id</p>
+                <p><i class="fa-solid fa-phone"></i>085750607953</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-square-instagram"></i></a>
+                    <a href=""><i class="fab fa-square-whatsapp"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright ** Dendy <i class="fa-solid fa-heart"></i> by Dendy Cemblek</p>
+    </div>
+</section>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
